@@ -31,7 +31,9 @@ body{
 .logo-primeira-section {
     left: 235px;
 }
-
+.subtitulo-segunda-section{
+    font-size: 0.9em;
+}
 
 .segunda-section {
     height: 350px;
@@ -76,7 +78,7 @@ body{
 
 .titulo-quarta-section {
     font-weight: bold;
-    font-size: 3em;
+    font-size: 2.6em;
     color: white;
     padding-top: 170px;
 }
@@ -94,21 +96,40 @@ body{
     cursor: pointer;
 }
 @media (max-width: 320px) {
+    .primeira-section{
+        height: 500px;
+    }
     .titulo {
         font-size: 5em;
     }
 
     #carro {
-        height: 90px;
+        margin-left: -20px;
+        height: 100px;
+        margin-top: 80px ;
     }
 
     #texto-carro {
-        margin-top: 130px;
+        margin-top: 150px;
         text-align: center !important;
     }
 
     .terceira-section {
-        height: 900px;
+        height: 1000px;
+        padding-top: 110px;
+    }
+    .titulo-quarta-section{
+        font-size: 2.3em;
+    }
+    .subtitulo-quarta-section{
+        font-size: 0.9em;
+    }
+    .button-quarta-section{
+        font-size: 1em;
+        padding: 13px 35px 13px 35px;
+    }
+    .bg-imagem-quarta-section{
+        margin-top: 100px;
     }
 }
 
@@ -127,7 +148,11 @@ body{
     }
 
     .terceira-section {
-        height: 900px;
+        height: 1000px;
+        padding-top: 100px;
+    }
+    .bg-imagem-quarta-section{
+        margin-top: 80px;
     }
 }
 
@@ -136,20 +161,37 @@ body{
     .titulo {
         font-size: 5em;
     }
-
+    .subtitulo-segunda-section{
+        padding-top: 10px;
+    }
     #carro {
         height: 150px;
+        margin-top: 35px;
     }
 
     #texto-carro {
-        margin-top: 130px;
+        margin-top: 145px;
         text-align: center !important;
     }
 
     .terceira-section {
         height: 900px;
     }
-
+    .bg-imagem-quarta-section{
+        margin-top: 80px;
+        height: 300px;
+    }
+    .titulo-quarta-section{
+        font-size: 2em;
+        padding-top: 110px;
+    }
+    .subtitulo-quarta-section {
+        font-size: 0.9em;
+    }
+    .terceira-section{
+        padding-top: 80px;
+    }
+    
 }
 
 @media (max-width: 768px) and (min-width: 577px) {
@@ -169,6 +211,13 @@ body{
     .terceira-section {
         height: 900px;
     }
+    #carro{
+        height: 350px;
+        padding-top: 200px;
+    }
+   
+   
+   
 }
 
 @media (max-width: 992px) and (min-width: 769px) {
@@ -181,8 +230,27 @@ body{
     .primeira-section {
         padding-top: 50px;
     }
+    .titulo-quarta-section {
+        font-size: 2em;
+    }
+    .subtitulo-quarta-section {
+        font-size: 1em;
+    }
+    .button-quarta-section {
+        font-size: 1em;
+        padding: 13px 35px 13px 35px;
+    }
+
 }
 
 @media (min-width: 1201px) {
+    .subtitulo-segunda-section{
+        font-size: 1em;
+        padding-top: 6px;
+    }
+    #texto-carro{
+        padding-right: 100px;
+        padding-top: 200px;
+    }
     
 }
